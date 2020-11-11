@@ -18,6 +18,9 @@ class ContactAdapter (val phoneItemList: List<PhoneData>, val clickListener: (Ph
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         (holder as ItemViewHolder).bind(phoneItemList[position], clickListener)
     }
+
+    override fun getItemCount() = phoneItemList.size
+
     class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(phone: PhoneData, clickListener: (PhoneData) -> Unit){
             itemView.tv_item_name.text = phone.contactName
@@ -25,8 +28,5 @@ class ContactAdapter (val phoneItemList: List<PhoneData>, val clickListener: (Ph
             itemView.setOnClickListener { clickListener(phone) }
         }
     }
-
-    override fun getItemCount() = phoneItemList.size
-
 
 }

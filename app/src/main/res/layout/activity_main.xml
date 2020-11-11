@@ -46,6 +46,14 @@
             android:text="Pertemuan 6"
             android:textColor="@android:color/white"
             android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btn_prt7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff4f"
+            android:text="Pertemuan 7"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
