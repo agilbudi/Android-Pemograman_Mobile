@@ -5,12 +5,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.hide09.praktikum.R
-import kotlinx.android.synthetic.main.list.view.*
+import kotlinx.android.synthetic.main.prt5_list.view.*
 
 class Adapter(private val list:ArrayList<Users>) : RecyclerView.Adapter<Adapter.Holder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
-        return Holder(LayoutInflater.from(parent.context).inflate(R.layout.list,parent,false))
+        return Holder(LayoutInflater.from(parent.context).inflate(R.layout.prt5_list,parent,false))
     }
 
     override fun getItemCount(): Int = list.size

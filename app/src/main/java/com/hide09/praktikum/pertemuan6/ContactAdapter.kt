@@ -5,14 +5,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.hide09.praktikum.R
-import kotlinx.android.synthetic.main.contact_list_item.view.*
+import kotlinx.android.synthetic.main.prt6_contact_list_item.view.*
 
 class ContactAdapter (val phoneItemList: List<PhoneData>, val clickListener: (PhoneData)-> Unit):
         RecyclerView.Adapter<RecyclerView.ViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val view = inflater.inflate(R.layout.contact_list_item, parent, false)
+        val view = inflater.inflate(R.layout.prt6_contact_list_item, parent, false)
         return ItemViewHolder(view)
     }
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {

@@ -7,6 +7,7 @@ import android.view.View
 import com.hide09.praktikum.pertemuan5.RecycleView
 import com.hide09.praktikum.pertemuan6.ContactActivity
 import com.hide09.praktikum.pertemuan7.GameFragment
+import com.hide09.praktikum.pertemuan8.Main8Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_prt5.setOnClickListener(this)
         btn_prt6.setOnClickListener(this)
         btn_prt7.setOnClickListener(this)
+        btn_prt8.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -41,6 +43,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_prt7->{
                 val intent = Intent(this, GameFragment::class.java)
+                startActivity(intent)
+            }
+            R.id.btn_prt8->{
+                val intent = Intent(this, Main8Activity::class.java)
                 startActivity(intent)
             }
         }

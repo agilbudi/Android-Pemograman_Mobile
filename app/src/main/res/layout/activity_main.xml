@@ -54,6 +54,22 @@
             android:text="Pertemuan 7"
             android:textColor="@android:color/white"
             android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btn_prt8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EACB2E"
+            android:text="Pertemuan 8"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btn_prt9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#147534"
+            android:text="Pertemuan 9"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
