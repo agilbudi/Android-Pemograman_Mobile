@@ -6,70 +6,130 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/btn_prt3"
-            android:layout_width="300dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorAccent"
-            android:text="Pertemuan 3"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt4"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="Pertemuan 4"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt5"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorPrimaryDark"
-            android:text="Pertemuan 5"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt6"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@android:color/holo_red_light"
-            android:text="Pertemuan 6"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt7"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#ff4f"
-            android:text="Pertemuan 7"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt8"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#EACB2E"
-            android:text="Pertemuan 8"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-        <Button
-            android:id="@+id/btn_prt9"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#147534"
-            android:text="Pertemuan 9"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"/>
-    </LinearLayout>
+            android:foregroundGravity="center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_prt3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Pertemuan 3"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Pertemuan 4"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Pertemuan 5"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="Pertemuan 6"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#ff4f"
+                android:text="Pertemuan 7"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#EACB2E"
+                android:text="Pertemuan 8"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#147534"
+                android:text="Pertemuan 9"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#EEFF41"
+                android:text="Pertemuan 10"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#FFAB40"
+                android:text="Pertemuan 11"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt12"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#FF6E40"
+                android:text="Pertemuan 12"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_prt13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="#E040FB"
+                android:text="Pertemuan 13"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pertemuan8.Main8Activity"></activity>
+        <activity android:name=".pertemuan10.AddNoteActivity10"
+            android:parentActivityName=".pertemuan10.MainActivity10">
+        </activity>
+        <activity android:name=".pertemuan10.MainActivity10"
+            android:launchMode="singleTop"/>
+        <activity android:name=".pertemuan9.NewWordActivity9" />
+        <activity android:name=".pertemuan9.MainActivity9" />
+        <activity android:name=".pertemuan8.Main8Activity" />
         <activity android:name=".pertemuan7.GameFragment" />
         <activity android:name=".pertemuan6.PhoneDetailActivity" />
         <activity android:name=".pertemuan6.ContactActivity" />
